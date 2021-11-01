@@ -324,6 +324,9 @@ type LineChart struct {
 
 	// Whether to show symbol. It would be shown during tooltip hover.
 	ShowSymbol bool
+	
+	// Sampling for large data. Can be: 'average', 'max', 'min', 'sum', 'lttb'.
+	Sampling string
 }
 
 // LineData
